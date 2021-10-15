@@ -166,7 +166,7 @@ function App() {
       })
   }
  
-
+//don't show this name in console
   const setUserName =  () => {
     updateProfile (auth.currentUser, {displayName: name }) 
     .then ( result => { 
